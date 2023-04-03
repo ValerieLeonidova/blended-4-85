@@ -8,7 +8,7 @@
 /* Хедер бордер ботом border-bottom: 1px solid #E7E9FC; */
 
 :root {
-    --primary-text-color: #434455;
+    --primary-text-color: #2E2F42;
     --title-text-color: #2E2F42;
     --accent-color:#404BBF;
     --primary-bacgraund-color: #FFFFFF;
@@ -27,7 +27,7 @@
     --footer-text-color:#E7E9FC;
     --footer-textsec-color: #FFFFFF;
     --footer-backgraund-color:#2E2F42;
-    --border-button-colorvar#E7E9FC;
+    --border-button-color: #E7E9FC;
     --header-bottom-color:#E7E9FC;
     --border-portfolio-color: #E7E9FC;
     --backdrop-background-color:rgba(46, 47, 66, 0.4);
@@ -551,8 +551,8 @@ address {
     background-color: var(--hero-backgraund-color);
     text-align: center;
 
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     margin-left: auto;
     margin-right: auto;
 
@@ -579,7 +579,6 @@ address {
     max-width: 496px;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 img {
