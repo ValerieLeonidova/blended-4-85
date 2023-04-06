@@ -32,9 +32,8 @@
                 </ul>
             </nav>
         
-            <button type="button" class="menu-mobile" aria-label="Переключатель мобильного меню" aria-expanded="false">
+            <button type="button" class="menu-mobile-open" aria-label="Переключатель мобильного меню" aria-expanded="false" js-open-menu>
                 <svg class="icon-mobile" width="32px" height="22px">
-                    <use href="" class="cross"></use>
                     <use href="./images/sprite.svg#icon-menu-hamburger" class="hamburger"></use>
                 </svg>
             </button>
@@ -46,15 +45,14 @@
                 </ul>
             </address>
              
-            <Div class="mobile-menu">
+            <Div class="mobile-menu" js-menu-container>
                 <div class="container mobile-container">
                     
-                <button type="button" class="mobile-menu-close-icon">
+                <button type="button" class="mobile-menu-close-icon" js-close-menu>
                     <svg class="close-icon-mobile" width="8px" height="8px">
                         <use href="./images/sprite.svg#icon-modal-close"></use>
                     </svg>
                 </button>
-
                
                 <ul class="nav-menu list">
                     <li class="item"><a href="./index.html" class="site-link link">Studio</a></li>
@@ -62,9 +60,6 @@
                     <li class="item"><a href="" class="site-link link">Contacts</a></li>
                 </ul>
                 
-
-             
-
                 <address class="mobile-contacts">
                     <ul class="list-contacts list">
                         <li class="item"><a href="tel:+110001111111" class="mob-contact-tel link">+11 (000) 111-11-11</a></li>
@@ -116,12 +111,12 @@
   
                                                 <!-- hero -->
 
-        <!-- <section class="hero">
+        <section class="hero">
             <div class="container">
                   <h1 class="hero-title">Effective Solutions for Your Business</h1>
                   <button type="button" class="button" data-modal-open>Order Service</button>
             </div>
-        </section> -->
+        </section>
 
                                               <!-- Benefits -->
 
@@ -173,7 +168,7 @@
                                         <!-- --Servives-- -->
 
 
-        <!-- <section class="section-works section">
+        <section class="section-works section">
             <div class="container">
             <h2 class="section-title">What are we doing</h2>
             <ul class="servis list">
@@ -188,7 +183,7 @@
                 </li>
             </ul>
             </div>
-        </section> -->
+        </section>
 
 
                                         <!--Our team-->
@@ -549,9 +544,10 @@
 
                                                 <!-- JS -->
 
-
+    
     <!-- <script src="./js/modal.js"></script> -->
-
+    <script src="./js/mobile-menu.js"></script>
+    
 </body> 
 
 </html>
