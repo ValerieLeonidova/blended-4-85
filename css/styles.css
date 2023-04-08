@@ -1574,7 +1574,46 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 } 
 
+.team-slider {
+    margin: 0 -12px;
+}
+.team-slider .item {
+    margin: 0 12px;
+}
+.team-slider .team-slider-prev,
+.team-slider .team-slider-next {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:-100px;
 
+}
+.team-slider .team-slider-next {
+    left:auto;
+    right:-100px;
+}
+.team-slider .slick-dots {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding: 20px 0 0;
+}
+.team-slider .slick-dots li button {
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #404BBF;
+    border: 0;
+    cursor: pointer;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.team-slider .slick-dots li.slick-active button {
+    background: #31D0AA;
+}
 
 
 

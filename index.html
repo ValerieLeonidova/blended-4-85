@@ -12,6 +12,11 @@
         rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 
 <body>
@@ -24,7 +29,7 @@
         <div class="container main-nav">
 
             <nav>
-                <a href="./index.html" class="logo link">web<span class="logostudio link">Studio</span></a>
+                <a href="./index.html" class="logo link animate__animated animate__zoomIn">web<span class="logostudio link">Studio</span></a>
                 <ul class="site-nav list">
                     <li class="item"><a href="./index.html" class="nav link current text-current">Studio</a></li>
                     <li class="item"><a href="./portfolio.html" class="nav link hoverline">Portfolio</a></li> 
@@ -124,7 +129,7 @@
             <div class="container">
                <h2 hidden class="section-title visually-hidden">Benefits</h2>
                 <ul class="benefits list">
-                    <li class="item">
+                    <li class="item wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
                         <div class="benefits-bg">
                           <svg class="benefits-icon" width="64px" height="64px">
                             <use href="./images/sprite.svg#icon-antenna"></use>
@@ -133,7 +138,7 @@
                        <h3 class="section-subtitle">Strategy</h3>
                        <p class="section-text">Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
                     </li>
-                    <li class="item">
+                    <li class="item wow animate__animated animate__fadeInRight" data-wow-delay="0.4s">
                         <div class="benefits-bg">
                           <svg class="benefits-icon"  width="64px" height="64px">
                             <use href="./images/sprite.svg#icon-clock"></use>
@@ -142,7 +147,7 @@
                        <h3 class="section-subtitle">Punctuality</h3>
                        <p class="section-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                     </li>
-                    <li class="item">
+                    <li class="item wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">
                         <div class="benefits-bg">
                           <svg class="benefits-icon"  width="64px" height="64px">
                             <use href="./images/sprite.svg#icon-diagram"></use>
@@ -151,7 +156,7 @@
                        <h3 class="section-subtitle">Diligence</h3>
                        <p class="section-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                     </li>
-                    <li class="item">
+                    <li class="item wow animate__animated animate__fadeInRight" data-wow-delay="0.8s">
                         <div class="benefits-bg">
                           <svg class="benefits-icon"  width="64px" height="64px">
                             <use href="./images/sprite.svg#icon-astronaut"></use>
@@ -170,15 +175,15 @@
 
         <section class="section-works section">
             <div class="container">
-            <h2 class="section-title">What are we doing</h2>
+            <h2 class="section-title wow animate__animated animate__zoomIn">What are we doing</h2>
             <ul class="servis list">
-                <li class="item">
+                <li class="item wow animate__animated animate__fadeInLeft"  data-wow-duration="2s">
                         <img src="./images/computer.jpg" alt="computer" width="360" height="300">
                 </li>
-                <li class="item">
+                <li class="item wow animate__animated animate__fadeInUp" data-wow-duration="2s">
                         <img src="./images/phone.jpg" alt="mobile phone" width="360" height="300">   
                 </li>
-                <li class="item">
+                <li class="item wow animate__animated animate__fadeInRight" data-wow-duration="2s">
                         <img src="./images/phoneandnotebook.jpg" alt="mobile phone and notebook" width="360" height="300">
                 </li>
             </ul>
@@ -192,8 +197,8 @@
         <section class="team-section section">
             <div class="container">
             <h2 class="team-title">Our Team</h2>
-            <ul class="we list">
-                <li class="item">
+            <div class="we list team-slider">
+                <div class="item">
                     <img src="./images/mark.jpg" alt="man" width="264" height="260">
                       <div class="item-descr">
                         <h3 class="team-subtitle">Mark Guerrero</h3>
@@ -231,8 +236,8 @@
 
                         </div>
 
-                </li>
-                <li class="item">
+                </div>
+                <div class="item">
                         <img src="./images/tom.jpg" alt="second man" width="264" height="260">
                           <div class="item-descr">
                             <h3 class="team-subtitle">Tom Ford</h3>
@@ -267,8 +272,47 @@
                             </li>
                         </ul>
                           </div>
-                </li>
-                <li class="item">
+                </div>
+                <div class="item">
+                    <img src="./images/mark.jpg" alt="man" width="264" height="260">
+                      <div class="item-descr">
+                        <h3 class="team-subtitle">Mark Guerrero</h3>
+                           <p class="team-text">Product Designer</p>
+
+                           <ul class="team-link-list list">
+                            <li class="item-link"><a href="" class="team-link link">
+                                <svg class="team-icon"  width="16px" height="16px">
+                                    <use href="./images/sprite.svg#icon-instagram"></use>
+                                </svg>
+                               </a>
+                            </li>
+
+                            <li class="item-link"><a href="" class="team-link link">
+                                <svg class="team-icon" width="16px" height="16px">
+                                    <use href="./images/sprite.svg#icon-twitter"></use>
+                                </svg>
+                                </a>
+                            </li>
+
+                            <li class="item-link"><a href="" class="team-link link">
+                                <svg class="team-icon" width="16px" height="16px">
+                                    <use href="./images/sprite.svg#icon-facebook"></use>
+                                </svg>
+                               </a>
+                            </li>
+
+                            <li class="item-link"><a href="" class="team-link link">
+                                <svg class="team-icon" width="16px" height="16px">
+                                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                               </a>
+                            </li>
+                            </ul>
+
+                        </div>
+
+                </div>
+                <div class="item">
                         <img src="./images/camila.jpg" alt="girl" width="264" height="260">
                         <div class="item-descr">
                         <h3 class="team-subtitle">Camila Garcia</h3>
@@ -303,8 +347,8 @@
                             </li>
                         </ul>
                         </div>
-                </li>
-                <li class="item">
+                </div>
+                <div class="item">
                         <img src="./images/daniel.jpg" alt="third man" width="264" height="260">
                         <div class="item-descr">
                         <h3 class="team-subtitle">Daniel Wilson</h3>
@@ -340,8 +384,8 @@
                         </ul>
 
                         </div>
-                </li>
-            </ul>
+                </div>
+            </div>
             </div>
         </section>
 
@@ -544,9 +588,42 @@
 
                                                 <!-- JS -->
 
-    
+    <script src="./js/jquery-1.11.0.min.js"></script>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.team-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            nextArrow: '<button class="team-slider-next">Наступна</button>',
+            prevArrow: '<button class="team-slider-prev">Попередня</button>',
+            mobileFirst: true,
+            responsive: [
+                {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2
+                    }
+                },
+                {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 4
+                    }
+                }
+            ]
+        });
+    });
+</script>
     
 </body> 
 
